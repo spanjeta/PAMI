@@ -41,6 +41,8 @@ namespace PAMI\Message;
  */
 abstract class IncomingMessage extends Message
 {
+
+    protected $eventsCount;
     /**
      * Holds original message.
      * @var string
